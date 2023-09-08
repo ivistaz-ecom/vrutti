@@ -1,0 +1,200 @@
+nav, nav li {
+  font-size: small;
+}
+
+nav a {
+  color: #025745 !important;
+}
+nav a:hover {
+  color: #ff0000 !important;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html, body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+}
+.partnersection {
+  text-align: center;
+  padding: 100px 10px;
+}
+.partnersection h2 {
+  font-weight: 700;
+  color: 025745;
+}
+.homebanner {
+  display: flex;
+  flex-direction: row;
+  margin: 66px 0px 0px 0px;
+  padding: 0px;
+}
+.homebanner .centerbox {
+  padding: 40px;
+  background-color: #025745;
+  color: white;
+  text-align: center;
+}
+.centerbox p {
+  color: #f05922;
+  margin-top: 100px;
+}
+.ourresponse {
+  background-color: #f4f4f4;
+  padding: 60px 0px;
+  margin: 0px;
+  text-align: center;
+}
+.ourresponse h2 {
+  color: #025745;
+  font-weight: 700;
+}
+.homebanner img {
+  height: 100vh;
+  width: 100%;
+}
+.numcounterarea {
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+}
+.aboutmenu {
+  display: block;
+  font-size: small;
+}
+.aboutmenu ul {
+  margin-bottom: 14px;
+}
+.aboutmenu ul li {
+  padding: 10px;
+  list-style-type: none;
+  margin-left: -30px;
+}
+.aboutmenu ul li a {
+  text-decoration: none;
+  color: #025745;
+}
+.aboutmenu ul li a:hover {
+  color: #ff0000;
+}
+
+/* Number counter on home page banner */
+@property --num {
+  syntax: "<integer>";
+  initial-value: 0;
+  inherits: false;
+}
+#numcounter {
+  animation: counter 2s linear forwards;
+  counter-reset: num var(--num);
+  font: 600 60px system-ui;
+  padding: 2rem;
+}
+#numcounter::after {
+  content: counter(num);
+  animation: counter 5s linear forwards;
+  counter-reset: count 0;
+}
+@keyframes counter {
+  from {
+    --num: 0;
+  }
+  to {
+    --num: 54719;
+  }
+}
+/* Counter 2 */
+@property --num2 {
+  syntax: "<integer>";
+  initial-value: 0;
+  inherits: false;
+}
+#numcounter2 {
+  animation: counter2 2s linear forwards;
+  counter-reset: num2 var(--num2);
+  font: 600 60px system-ui;
+  padding: 2rem;
+}
+#numcounter2::after {
+  content: counter(num2);
+  animation: counter2 5s linear forwards;
+  counter-reset: count 0;
+}
+@keyframes counter2 {
+  from {
+    --num2: 0;
+  }
+  to {
+    --num2: 26000;
+  }
+}
+/* Counter 3 */
+@property --num3 {
+  syntax: "<integer>";
+  initial-value: 0;
+  inherits: false;
+}
+#numcounter3 {
+  animation: counter3 2s linear forwards;
+  counter-reset: num3 var(--num3);
+  font: 600 60px system-ui;
+  padding: 2rem;
+}
+#numcounter3::after {
+  content: counter(num3);
+  animation: counter3 5s linear forwards;
+  counter-reset: count 0;
+}
+@keyframes counter3 {
+  from {
+    --num3: 0;
+  }
+  to {
+    --num3: 120000;
+  }
+}
+/* Counter 4 */
+@property --num4 {
+  syntax: "<integer>";
+  initial-value: 0;
+  inherits: false;
+}
+#numcounter4 {
+  animation: counter4 2s linear forwards;
+  counter-reset: num4 var(--num4);
+  font: 600 60px system-ui;
+  padding: 2rem;
+}
+#numcounter4::after {
+  content: counter(num4);
+  animation: counter4 5s linear forwards;
+  counter-reset: count 0;
+}
+@keyframes counter4 {
+  from {
+    --num4: 0;
+  }
+  to {
+    --num4: 532;
+  }
+}
+/* --------End Counter-----------*/
