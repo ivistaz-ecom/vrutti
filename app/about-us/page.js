@@ -4,35 +4,38 @@ import Image from "next/image";
 import Navbar from "../components/navbar";
 import Footer from '../components/footer';
 import * as Icon from 'react-bootstrap-icons';
+import Aboutbanner from "../components/aboutbanner";
+import Link from "next/link";
 
 export default function aboutus () {
     return (
         <>
         <Navbar />
-        <Container style={{marginTop:'40px', paddingTop:'100px', paddingBottom:'60px'}}>
+        <Aboutbanner />
+        <Container style={{paddingTop:'100px', paddingBottom:'60px'}}>
             <Row>
                 <Col md={3}>
                     <div className="aboutmenu">
                         <ul>
                             <li style={{backgroundColor:'#faf1da'}}>IN THIS SECTION</li>
-                            <li>About Us</li>
-                            <li>Why are we here</li>
-                            <li>What we believe in</li>
-                            <li>About our journey</li>
-                            <li>The Genesis</li>
+                            <li><Link href={"/about-us#about"}>About Us</Link></li>
+                            <li><Link href={'/about-us#why'}>Why are we here</Link></li>
+                            <li><Link href={'about-us#believe'}>What we believe in</Link></li>
+                            <li><Link href={'about-us#journey'}>About our journey</Link></li>
+                            <li><Link href={'about-us#genesis'}>The Genesis</Link></li>
                         </ul>
                         <ul>
                             <li style={{backgroundColor:'#faf1da'}}>SHARE THIS PAGE</li>
-                            <li><Icon.Facebook size={15} style={{marginRight:'14px'}} />Via Facebook</li>
-                            <li><Icon.Twitter size={15} style={{marginRight:'14px'}} />Via Tweet this page</li>
-                            <li><Icon.Linkedin size={15} style={{marginRight:'14px'}} />Via on LinkedIn</li>
+                            <li><Link href={'https://www.facebook.com/vrutti.lh/'}><Icon.Facebook size={15} style={{marginRight:'14px'}} />Via Facebook</Link></li>
+                            <li><Link href={'https://twitter.com/Vrutti_Catalyst'}><Icon.Twitter size={15} style={{marginRight:'14px'}} />Via Tweet this page</Link></li>
+                            <li><Link href={'https://www.linkedin.com/company/vrutti-livelihood-impact-partners/'}><Icon.Linkedin size={15} style={{marginRight:'14px'}} />Via on LinkedIn</Link></li>
                             <li><Icon.Share size={15} style={{marginRight:'14px'}} />Share the URL</li>
                         </ul>
                     </div>
                 </Col>
                 <Col md={9}>
                     <h4 style={{color:'#025745', fontWeight:'700'}}>About Us</h4>
-                    <Row>
+                    <Row className="abouttxt">
                         <Col md={6}>
                             <p>Vrutti was ideated in 2002 by two graduates from the Institute of Rural Management Anand We are committed to find solutions to end poverty, marginalisation and create wealth and build resilience for small producers. As social entrepreneurs, we pursue problem solving with entrepreneurial zeal, business acumen, courage to innovate, and consistently challenge traditional practices. To us, scale is about reach and impact at the community &ndash; the depth and breadth of our contributions to change (at individual producer, ecosystem and national levels) and sustainability of benefits. Our solutions are modelled to take us to the scale. We are not satisfied with localised and limited interventions. We therefore &apos;model&apos; our approaches, &apos;cost&apos; them, and &apos;integrate&apos; them to be adopted by communities or market or public policy. We are passionate about unbiased measurement, self-critique and learning. We work through result-based planning tools, performance measurement metrics, impact and value for money assessments and use technology as augmenter.</p>
                         </Col>
@@ -43,16 +46,16 @@ export default function aboutus () {
                     <Row>
                         <Col md={9}>
                             <h4>Vision</h4>
-                            <p>Enhancing people’s wellbeing through knowledge, innovations and transformative actions.</p>
+                            <p>Enhancing people&apos;s wellbeing through knowledge, innovations and transformative actions.</p>
                             <h4>Our Mision</h4>
                             <p>Building the wealth and resilience of small producers and vulnerable communities through transformative livelihoods solutions.</p>
-                            <h4>Why are we here</h4>
+                            <h4 id="why">Why are we here</h4>
                             <ul>
                                 <li>We are here as there are a number of societal problems such as poverty and inequity, marginalization and vulnerabilities, low capabilities and lack of voice of people that persist and grow!</li>
                                 <li>Solutions exists but are isolated, verticalised, and hardly converge to create lasting impact. We are enablers and system integrators and we integrate solutions.</li>
                                 <li>As social entrepreneurs we are well placed to facilitate solutions.</li>
                             </ul>
-                            <h4>What we believe in</h4>
+                            <h4 id="believe">What we believe in</h4>
                             <ul>
                                 <li>We strongly believe that &apos;Sustainable Livelihood Approaches&apos; can be a great lever to address poverty, marginalization and inclusive development</li>
                                 <li>People first &ndash; All our work starts with &apos;empathy-led design&apos; with people and their issues at the centre &ndash; distinct from technical/ scientific design</li>
@@ -62,7 +65,7 @@ export default function aboutus () {
                                 <li>We are passionate about measurement, critiquing ourselves and improve… There is always a healthy impatience for success!</li>
                                 <li>We believe in the innate capacity of all people to contribute meaningfully to development and generating and facilitating shared value is critical</li>
                             </ul>
-                            <h4>About our Journey</h4>
+                            <h4 id="journey">About our Journey</h4>
                             <p>Our transition from a livelihood resource center to a livelihood impact partner</p>
                             <p>The new Vrutti logo is a reflection of Vrutti&apos;s position and status in the livelihood impact space; a status borne of many years of passion and diligent work across a multitude of initiatives by many committed individuals.</p>
                             <Image src={'/../img/vrutti-graphic.png'} width={300} height={200} alt="Vrutti Graphic" className="w-100" style={{height:'auto'}} />
@@ -74,7 +77,7 @@ export default function aboutus () {
                             <p>The key visual element in the logo is the &apos;u&apos; of Vrutti constructed as an amalgamation of three leaves of different colours. The three leaves represent the elements of the 3 fold model that is at the core of Vrutti&apos;s philosophy &ndash; ensuring wealthy, resilient and responsible small producers.</p>
                             <p>The primary colour of the new logo &ndash; dark green &ndash; is not only representative of our strong farmer connect but also of harmony, nature (and eco friendly), renewal and plenty. The typeface or writing style of the logo is neat, clean and simple, representative of a contemporary and modern organization.</p>
                             <p>And thus, our journey goes on, with a new beginning. Vrutti Livelihood Impact Partners will continue to work with small producers to ensure that the promise of enabling them to be 3 times more profitable becomes a reality. This will take some doing, but every individual associated with Vrutti is determined and committed to give it their all in reaching this goal. Our new logo serves to act as a catalyst to re-energize this effort.</p>
-                            <h4>The Genesis</h4>
+                            <h4 id="genesis">The Genesis</h4>
                             <p>It started with data! An evaluation by CMS- Social Impact Specialists of a tribal livelihoods initiative for the State Planning Commission of Madhya Pradesh found that agriculture as a livelihood option was unproductive for small holder tribal farmers; leaving them without a profitable livelihood option. We, at Vrutti, unpacked the situation further &ndash; understanding on the whys and hows through data.</p>
                         </Col>
                         <Col md={3}></Col>

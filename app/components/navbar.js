@@ -27,21 +27,25 @@ export function navbar() {
                                 Who we are
                             </a>
                             <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a className="dropdown-item" href="#">Action</a></li>
-                                <li><a className="dropdown-item" href="#">Another action</a></li>
-                                <li><a className="dropdown-item" href="#">Something else here</a></li>
+                                <li><a className="dropdown-item" href="/about-us">About Us</a></li>
+                                <li><a className="dropdown-item" href="#/about-us/#why">Why are we here</a></li>
+                                <li><a className="dropdown-item" href="about-us#believe">What we believe in</a></li>
+                                <li><a className="dropdown-item" href="about-us#journey">About our journey</a></li>
+                                <li><a className="dropdown-item" href="about-us#genesis">The Genesis</a></li>
                             </ul>
                         </li>
                         <li className="nav-item dropdown">
                             <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">What we do</a>
                             <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a className="dropdown-item" href="#">Action</a></li>
-                                <li><a className="dropdown-item" href="#">Another action</a></li>
-                                <li><a className="dropdown-item" href="#">Something else here</a></li>
+                                <li><a className="dropdown-item" href="/what-we-do#whatwedo">What we do</a></li>
+                                <li><a className="dropdown-item" href="what-we-do#wherewework">Where we work</a></li>
+                                <li><a className="dropdown-item" href="what-we-do#communities">Communities we work with</a></li>
+                                <li><a className="dropdown-item" href="what-we-do#partners">Partners we work with</a></li>
+                                <li><a className="dropdown-item" href="what-we-do#development-goals">Sustainable Development Goals</a></li>
                             </ul>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link" href={'https://vruttiimpactcatalysts.org/covidactioncollab/'}>#CovidActionCollab</Link>
+                            <Link className="nav-link" href={'/covidactioncollab'}>#CovidActionCollab</Link>
                         </li>
                         <li className="nav-item dropdown">
                             <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">PIE</a>
@@ -60,7 +64,7 @@ export function navbar() {
                             </ul>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link" href={'https://vruttiimpactcatalysts.org/covidactioncollab/'}>Research</Link>
+                            <Link className="nav-link" href={'/covidactioncollab'}>Research</Link>
                         </li>
                         <li className="nav-item dropdown">
                             <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Resources</a>
@@ -79,13 +83,19 @@ export function navbar() {
                             </ul>
                         </li>
                         <li className="nav-item">
-                            <Icon.Facebook size={16} style={{marginTop:'9px', marginRight:'8px', color:'#025745'}} />
+                            <Link href={'https://www.facebook.com/vrutti.lh/'}>
+                                <Icon.Facebook size={16} style={{marginTop:'9px', marginRight:'8px', color:'#025745'}} />
+                            </Link>
                         </li>
                         <li className="nav-item">
-                            <Icon.Twitter size={16} style={{marginTop:'9px', marginRight:'8px', color:'#025745'}} />
+                            <Link href={'https://twitter.com/Vrutti_Catalyst'}>
+                                <Icon.Twitter size={16} style={{marginTop:'9px', marginRight:'8px', color:'#025745'}} />
+                            </Link>
                         </li>
                         <li className="nav-item">
-                            <Icon.Linkedin size={16} style={{marginTop:'9px', color:'#025745'}} />
+                            <Link href={'https://www.linkedin.com/company/vrutti-livelihood-impact-partners/'}>
+                                <Icon.Linkedin size={16} style={{marginTop:'9px', color:'#025745'}} />
+                            </Link>
                         </li>
                     </ul>
                 </div>

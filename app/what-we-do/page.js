@@ -4,6 +4,7 @@ import Image from "next/image";
 import Navbar from "../components/navbar";
 import Footer from '../components/footer';
 import * as Icon from 'react-bootstrap-icons';
+import Link from "next/link";
 
 export default function whatwedo () {
     return (
@@ -13,27 +14,27 @@ export default function whatwedo () {
             <h1 style={{color:'#025745', fontWeight:'700', marginBottom:'30px'}}>What We Do</h1>
             <Row>
                 <Col md={3}>
-                    <div className="aboutmenu">
+                    <div className="aboutmenu" style={{position:'fixed'}}>
                         <ul>
                             <li style={{backgroundColor:'#faf1da'}}>IN THIS SECTION</li>
-                            <li>What we do</li>
-                            <li>Where we work</li>
-                            <li>Communities we work with</li>
-                            <li>Partners we work with</li>
-                            <li>Sustainable Development Goals</li>
+                            <li><Link href={'/what-we-do#whatwedo'}>What we do</Link></li>
+                            <li><Link href={'what-we-do#wherewework'}>Where we work</Link></li>
+                            <li><Link href={'what-we-do#communities'}>Communities we work with</Link></li>
+                            <li><Link href={'what-we-do#partners'}>Partners we work with</Link></li>
+                            <li><Link href={'what-we-do#development-goals'}>Sustainable Development Goals</Link></li>
                         </ul>
                         <ul>
                             <li style={{backgroundColor:'#faf1da'}}>SHARE THIS PAGE</li>
-                            <li><Icon.Facebook size={15} style={{marginRight:'14px'}} />Via Facebook</li>
-                            <li><Icon.Twitter size={15} style={{marginRight:'14px'}} />Via Tweet this page</li>
-                            <li><Icon.Linkedin size={15} style={{marginRight:'14px'}} />Via on LinkedIn</li>
+                            <li><Link href={'https://www.facebook.com/vrutti.lh/'}><Icon.Facebook size={15} style={{marginRight:'14px'}} />Via Facebook</Link></li>
+                            <li><Link href={'https://twitter.com/Vrutti_Catalyst'}><Icon.Twitter size={15} style={{marginRight:'14px'}} />Via Tweet this page</Link></li>
+                            <li><Link href={'https://www.linkedin.com/company/vrutti-livelihood-impact-partners/'}><Icon.Linkedin size={15} style={{marginRight:'14px'}} />Via on LinkedIn</Link></li>
                             <li><Icon.Share size={15} style={{marginRight:'14px'}} />Share the URL</li>
                         </ul>
                     </div>
                 </Col>
                 <Col md={9}>
-                    <h4 style={{color:'#025745', fontWeight:'700'}}>What We Do</h4>
-                    <Row>
+                    <h4 style={{color:'#025745', fontWeight:'700'}} id="whatwedo">What We Do</h4>
+                    <Row className="abouttxt">
                         <Col md={6}>
                             <p>Vrutti works with economically and socially marginalized groups through sustainable livelihood approaches</p>
                             <ul>
@@ -43,7 +44,7 @@ export default function whatwedo () {
                             </ul>
                         </Col>
                         <Col md={6}>
-                            <Image src={'/../img/Kalavathi.jpg'} width={400} height={300} alt="Kavita" className="w-100" />
+                            <Image src={'/../img/Kalavathi.jpg'} width={400} height={300} alt="Kavita" className="w-100" style={{height:'auto'}} />
                             <small style={{fontStyle:'italic'}}>Kalavathi explaining silkworm rearing. Photo by Priya Pillai (Swasti)</small>
                         </Col>
                     </Row>
@@ -61,7 +62,7 @@ export default function whatwedo () {
                         </Col>
                         <Col md={3}></Col>
                     </Row>
-                    <h4>Where we work</h4>
+                    <h4 id="wherewework">Where we work</h4>
                     <Image src={'/../img/farmers-map.png'} width={400} height={300} alt="Farmers Map" className="w-100" style={{height:'auto'}} />
                     <Row>
                         <Col md={9}>
@@ -87,16 +88,16 @@ export default function whatwedo () {
                     <Row>
                         <Col md={9}>
                             <p>It has also been working in Tamil Nadu with the State Government to promote better management of fish resources and has promoted three co-management pilot projects. In August 2017, fishMARC has been operating as part of Vrutti, in order to access the benefits of a larger pool of professionals and improve its resource mobilisation. The Secretary and founder of fishMARC is heading this new vertical in Vrutti. Though a part and parcel of Vrutti, the fishMARC label is being retained by the vertical in recognition of its history and brand value.</p>
-                            <h4>Marginalised Communities</h4>
+                            <h4 id="communities">Marginalised Communities</h4>
                             <p>Vrutti works with communities in difficult circumstances, women in sex work, communities living with or vulnerable to HIV. Our work with these communities started around 2005. These communities are disempowered and unable to take decisions on their lives and livelihoods. A critical component that triggers and sustains this situation relates to finance. Vrutti steps in to provide support related to financial literacy, financial inclusion, livelihoods support, which provides them a sense of security and of pride, empowering them to take decisions for their and their family&apos;s well-being. In the past year, Vrutti has been working closely with women in sex work, transgender communities and their institutions.</p>
-                            <h4>Partners we work with</h4>
+                            <h4 id="partners">Partners we work with</h4>
                             <p>Our partners play a huge part in supporting the important work we do, helping us deliver services to those who need it the most.</p>
                             <h4>Rural India Livelihoods Project</h4>
                             <p>Launched in 2011, the Deendayal Antyodaya Yojana-National Rural Livelihoods Mission (DAY-NRLM) aims to link the rural poor in India to sustainable livelihood opportunities and financial services.</p>
-                            <p>Vrutti in collaboration with Catalyst Management Services (CMS), Ministry of Rural Development, Bill & Melinda Gates Foundation, World Bank and International Initiative for Impact Evaluation (3ie) has been generating rigorous evidence since 2019 on the impacts of this large-scale program on livelihood promotion and social mobilization.</p>
-                            <h4>Our initiatives contribute to Sustainable Development Goals</h4>
+                            <p>Vrutti in collaboration with Catalyst Management Services (CMS), Ministry of Rural Development, Bill &amp; Melinda Gates Foundation, World Bank and International Initiative for Impact Evaluation (3ie) has been generating rigorous evidence since 2019 on the impacts of this large-scale program on livelihood promotion and social mobilization.</p>
+                            <h4 id="development-goals">Our initiatives contribute to Sustainable Development Goals</h4>
                             <p style={{fontStyle:'italic'}}>Our Vision, Mission, strategies and actions contribute to “No Poverty” and SDG 5,8,10,12,13,14,15</p>
-                            <Image src={'/../img/SDG-Logo.png'} width={400} height={200} style={{height:'auto'}} alt="SDG Logo" />
+                            <Image src={'/../img/SDG-Logo.png'} width={400} height={200} className="w-100" style={{height:'auto'}} alt="SDG Logo" />
                         </Col>
                         <Col md={3}></Col>
                     </Row>

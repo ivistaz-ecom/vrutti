@@ -198,3 +198,18 @@ body {
   }
 }
 /* --------End Counter-----------*/
+.txtbox {
+  color:white;
+  padding:80px 40px 0px 100px;
+}
+@media (max-width:786px) {
+  .imgsize, .aboutmenu {
+    display: none;
+  }
+  .abouttxt {
+    flex-direction: column-reverse;
+  }
+  .txtbox {
+    padding: 10px 10px;
+  }
+}
