@@ -19,31 +19,31 @@ export default function ourpartners () {
                 <h2>Our Partners</h2>
                 <Slider {...settings}>
                     <div>
-                        <Image src={'/../img/AHT.jpeg'} width={200} height={100} alt="AHT Logo"></Image>
+                        <Image src={'/img/AHT.jpeg'} width={200} height={100} alt="AHT Logo"></Image>
                     </div>
                     <div>
-                        <Image src={'/../img/azim-premji.jpeg'} width={140} height={100} alt="Azim Premji Logo"></Image>
+                        <Image src={'/img/azim-premji.jpeg'} width={140} height={100} alt="Azim Premji Logo"></Image>
                     </div>
                     <div>
-                        <Image src={'/../img/edelgive.jpeg'} width={140} height={100} alt="Edelgive Logo"></Image>
+                        <Image src={'/img/edelgive.jpeg'} width={140} height={100} alt="Edelgive Logo"></Image>
                     </div>
                     <div>
-                        <Image src={'/../img/ford.jpeg'} width={150} height={100} alt="Ford Logo"></Image>
+                        <Image src={'/img/ford.jpeg'} width={150} height={100} alt="Ford Logo"></Image>
                     </div>
                     <div>
-                        <Image src={'/../img/fwwb-logo.jpg'} width={170} height={100} alt="FWWB Logo"></Image>
+                        <Image src={'/img/fwwb-logo.jpg'} width={170} height={100} alt="FWWB Logo"></Image>
                     </div>
                     <div>
-                        <Image src={'/../img/godrej.jpg'} width={120} height={100} alt="Godrej Logo"></Image>
+                        <Image src={'/img/godrej.jpg'} width={120} height={100} alt="Godrej Logo"></Image>
                     </div>
                     <div>
-                        <Image src={'/../img/htparekh.png'} width={140} height={100} alt="HT Parekh Logo"></Image>
+                        <Image src={'/img/htparekh.png'} width={140} height={100} alt="HT Parekh Logo"></Image>
                     </div>
                     <div>
-                        <Image src={'/../img/idfc-logo.jpg'} width={140} height={100} alt="IDFC Logo"></Image>
+                        <Image src={'/img/idfc-logo.jpg'} width={140} height={100} alt="IDFC Logo"></Image>
                     </div>
                     <div>
-                        <Image src={'/../img/wipro.jpeg'} width={160} height={100} alt="Wipro Logo"></Image>
+                        <Image src={'/img/wipro.jpeg'} width={160} height={100} alt="Wipro Logo"></Image>
                     </div>
                 </Slider>
             </div>
