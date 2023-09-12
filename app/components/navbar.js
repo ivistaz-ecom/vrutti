@@ -1,5 +1,5 @@
 import 'bootstrap/dist/css/bootstrap.css';
-import 'bootstrap/dist/js/bootstrap.min.js';
+//import 'bootstrap/dist/js/bootstrap.min.js';
 import '../../app/globals.css';
 import Image from 'next/image';
 import Link from 'next/link';
@@ -8,7 +8,7 @@ import * as Icon from 'react-bootstrap-icons';
 
 export function navbar() {
     return (
-        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <nav className="navbar navbar-expand-lg navbar-light bg-light fixed-top">
             <Container>
                 <Link href={'/'}><Image src={'/img/vrutti-logo.png'} width={105} height={50} alt='Vrutti Logo'></Image></Link>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
