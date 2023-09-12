@@ -6,7 +6,7 @@ export default function ourresponse () {
         <Container fluid className="ourresponse">
             <Container>
                 <h2>Our Response Actions for Small &amp; Marginal Farmers</h2>
-                <Image src={'/../img/Vrutti-response.jpeg'} width={500} height={700} alt="Our Response" className="w-100"></Image>
+                <Image src={'/img/Vrutti-response.jpeg'} width={500} height={700} alt="Our Response" className="w-100"></Image>
             </Container>
             
         </Container>

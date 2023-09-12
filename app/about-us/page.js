@@ -68,7 +68,7 @@ export default function aboutus () {
                             <h4 id="journey">About our Journey</h4>
                             <p>Our transition from a livelihood resource center to a livelihood impact partner</p>
                             <p>The new Vrutti logo is a reflection of Vrutti&apos;s position and status in the livelihood impact space; a status borne of many years of passion and diligent work across a multitude of initiatives by many committed individuals.</p>
-                            <Image src={'/../img/vrutti-graphic.png'} width={300} height={200} alt="Vrutti Graphic" className="w-100" style={{height:'auto'}} />
+                            <Image src={'/img/vrutti-graphic.png'} width={300} height={200} alt="Vrutti Graphic" className="w-100" style={{height:'auto'}} />
                             <h4>Where we work</h4>
                             <p>The evolution of the organization &ndash; in multiple ways &ndash; is reflected in the way the brand and the logo is now defined and depicted.</p>
                             <p>From being a &apos;livelihood resource centre&apos; the organization has grown to be a &apos;livelihood impact partner&apos; &ndash; expanding far beyond a centre that ensures resources, to being a partner (to small producers) who assures impact.</p>
@@ -88,7 +88,7 @@ export default function aboutus () {
                             <p>We realized that in only a a revolution – a transformation of perspective and of practice would make agriculture and viable livelihoods option. We needed a paradigm innovation to change the way we viewed livelihoods in general and agriculture in specific. For the innovation to reap success we had to redraw our own mental map and translate the changed perspectives to all other stakeholders.</p>
                         </Col>
                         <Col md={6}>
-                            <Image src={'/../img/genesis.jpeg'} width={300} height={200} className="w-100" alt="Genesis" style={{height:'auto'}} />
+                            <Image src={'/img/genesis.jpeg'} width={300} height={200} className="w-100" alt="Genesis" style={{height:'auto'}} />
                         </Col>
                     </Row>
                     <Row>

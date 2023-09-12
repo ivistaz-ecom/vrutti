@@ -35,7 +35,7 @@ export default function covidactioncollab () {
                 <Col md={9}>
                     <Row>
                         <Col md={9}>
-                            <Image src={'/../img/CAC-Banner.jpeg'} width={300} height={100} alt="CAC Banner" className="w-100" style={{height:'auto', marginBottom:'12px'}} id="covidactioncollab-to-communityactioncollab" />
+                            <Image src={'/img/CAC-Banner.jpeg'} width={300} height={100} alt="CAC Banner" className="w-100" style={{height:'auto', marginBottom:'12px'}} id="covidactioncollab-to-communityactioncollab" />
                             <p>The COVID-19 pandemic has enabled the Catalyst Group to build a strong and dynamic pan-India multidisciplinary network with a variety of expertise. This presents the potential to build the resilience of the vulnerable and their institutions in their everyday emergencies and to be ready for future humanitarian crises (climate & health). This has led to the #COVIDActionCollab transitioning to Community Action Collab, a &apos;spring to action&apos; ready humanitarian emergency platform.</p>
                             <p>#COVIDActionCollab</p>
                             <ul>
@@ -56,7 +56,7 @@ export default function covidactioncollab () {
                             <p>S2: Setup and operate an information exchange and build capacities of key partners and actors.</p>
                             <p>S3: Solve critical challenges which can have a high impact on response.</p>
                             <p style={{fontStyle:'italic'}}>All three strategies will leverage technology and partner presence and capabilities.</p>
-                            <Image src={'/../img/CAC-Frameworks.png'} width={300} height={150} alt="CAC Framework" className="w-100" style={{height:'auto'}} />
+                            <Image src={'/img/CAC-Frameworks.png'} width={300} height={150} alt="CAC Framework" className="w-100" style={{height:'auto'}} />
                             <h4 style={{color:'#025745', fontWeight:'700', marginBottom:'30px'}} id="about-the-collaborative">About the collaborative</h4>
                             <p>To know more about the collaborative</p>
                             <p>Visit: <Button href={'https://covidactioncollab.org/'} style={{backgroundColor:'#f05922', border:'none'}}>#CovidActionCollab website</Button></p>

@@ -44,7 +44,7 @@ export default function whatwedo () {
                             </ul>
                         </Col>
                         <Col md={6}>
-                            <Image src={'/../img/Kalavathi.jpg'} width={400} height={300} alt="Kavita" className="w-100" style={{height:'auto'}} />
+                            <Image src={'/img/Kalavathi.jpg'} width={400} height={300} alt="Kavita" className="w-100" style={{height:'auto'}} />
                             <small style={{fontStyle:'italic'}}>Kalavathi explaining silkworm rearing. Photo by Priya Pillai (Swasti)</small>
                         </Col>
                     </Row>
@@ -63,7 +63,7 @@ export default function whatwedo () {
                         <Col md={3}></Col>
                     </Row>
                     <h4 id="wherewework">Where we work</h4>
-                    <Image src={'/../img/farmers-map.png'} width={400} height={300} alt="Farmers Map" className="w-100" style={{height:'auto'}} />
+                    <Image src={'/img/farmers-map.png'} width={400} height={300} alt="Farmers Map" className="w-100" style={{height:'auto'}} />
                     <Row>
                         <Col md={9}>
                             <h4 style={{marginTop:'30px'}}>Communities we work with</h4>
@@ -81,7 +81,7 @@ export default function whatwedo () {
                             <p>FishMARC has a history of its own. Its origin can be traced to the South Indian Federation of Fishermen Societies (SIFFS), a Trivandrum based cooperative organisation of small scale fishermen in Tamil Nadu and Kerala. Started in 2008, fishMARC has been working in Kutch, where it organised a Fishermen Producer Company.</p>
                         </Col>
                         <Col md={6}>
-                            <Image src={'/../img/Sumathi.jpg'} width={300} height={200} alt="Sumathi" className="w-100" style={{height:'auto'}} />
+                            <Image src={'/img/Sumathi.jpg'} width={300} height={200} alt="Sumathi" className="w-100" style={{height:'auto'}} />
                             <small style={{fontStyle:'italic'}}>Sumathi and Suma with Oil Mill Unit. Photo by Vandana R (Vrutti)</small>
                         </Col>
                     </Row>
@@ -97,7 +97,7 @@ export default function whatwedo () {
                             <p>Vrutti in collaboration with Catalyst Management Services (CMS), Ministry of Rural Development, Bill &amp; Melinda Gates Foundation, World Bank and International Initiative for Impact Evaluation (3ie) has been generating rigorous evidence since 2019 on the impacts of this large-scale program on livelihood promotion and social mobilization.</p>
                             <h4 id="development-goals">Our initiatives contribute to Sustainable Development Goals</h4>
                             <p style={{fontStyle:'italic'}}>Our Vision, Mission, strategies and actions contribute to “No Poverty” and SDG 5,8,10,12,13,14,15</p>
-                            <Image src={'/../img/SDG-Logo.png'} width={400} height={200} className="w-100" style={{height:'auto'}} alt="SDG Logo" />
+                            <Image src={'/img/SDG-Logo.png'} width={400} height={200} className="w-100" style={{height:'auto'}} alt="SDG Logo" />
                         </Col>
                         <Col md={3}></Col>
                     </Row>
