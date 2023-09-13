@@ -14,7 +14,7 @@ export default function whatwedo () {
             <h1 style={{color:'#025745', fontWeight:'700', marginBottom:'30px'}}>What We Do</h1>
             <Row>
                 <Col md={3}>
-                    <div className="aboutmenu" style={{position:'fixed'}}>
+                    <div className="aboutmenu">
                         <ul>
                             <li style={{backgroundColor:'#faf1da'}}>IN THIS SECTION</li>
                             <li><Link href={'/what-we-do#whatwedo'}>What we do</Link></li>

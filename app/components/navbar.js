@@ -1,5 +1,4 @@
 import 'bootstrap/dist/css/bootstrap.css';
-//import 'bootstrap/dist/js/bootstrap.min.js';
 import '../../app/globals.css';
 import Image from 'next/image';
 import Link from 'next/link';
@@ -50,21 +49,23 @@ export function navbar() {
                         <li className="nav-item dropdown">
                             <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">PIE</a>
                             <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a className="dropdown-item" href="#">Action</a></li>
-                                <li><a className="dropdown-item" href="#">Another action</a></li>
-                                <li><a className="dropdown-item" href="#">Something else here</a></li>
+                                <li><a className="dropdown-item" href="/platform-for-inclusive-entrepreneurship-pie#introduction">Introduction</a></li>
+                                <li><a className="dropdown-item" href="/platform-for-inclusive-entrepreneurship-pie#the-challenge">The Challenge</a></li>
+                                <li><a className="dropdown-item" href="/platform-for-inclusive-entrepreneurship-pie#the-solution-we-are-working-on">The solution we are working on</a></li>
                             </ul>
                         </li>
                         <li className="nav-item dropdown">
                             <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Core Impact Model</a>
                             <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a className="dropdown-item" href="#">Action</a></li>
-                                <li><a className="dropdown-item" href="#">Another action</a></li>
-                                <li><a className="dropdown-item" href="#">Something else here</a></li>
+                                <li><a className="dropdown-item" href="/our-core-impact-model#3-fold-wealthy-resilient-and-responsible-farmers">3 Fold Impact Medel</a></li>
+                                <li><a className="dropdown-item" href="/our-core-impact-model#why-small-producers">Why small producers</a></li>
+                                <li><a className="dropdown-item" href="/our-core-impact-model#problem-we-are-trying-to-solve">Problem we are trying to solve</a></li>
+                                <li><a className="dropdown-item" href="/our-core-impact-model#how-we-are-doing-it">How are we doing it</a></li>
+                                <li><a className="dropdown-item" href="/our-core-impact-model#where-are-we-on-this-journey">Where are we</a></li>
                             </ul>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link" href={'/covidactioncollab'}>Research</Link>
+                            <Link className="nav-link" href={'/research'}>Research</Link>
                         </li>
                         <li className="nav-item dropdown">
                             <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Resources</a>

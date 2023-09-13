@@ -14,7 +14,7 @@ export default function covidactioncollab () {
             <h1 style={{color:'#025745', fontWeight:'700', marginBottom:'30px'}}>#CovidActionCollab</h1>
             <Row>
                 <Col md={3}>
-                    <div className="aboutmenu" style={{position:'fixed'}}>
+                    <div className="aboutmenu">
                         <ul>
                             <li style={{backgroundColor:'#faf1da'}}>IN THIS SECTION</li>
                             <li><Link href={'/covidactioncollab/#covidactioncollab-to-communityactioncollab'}>#CovidActionCollab to CommunityActionCollab</Link></li>
@@ -38,7 +38,7 @@ export default function covidactioncollab () {
                             <Image src={'/img/CAC-Banner.jpeg'} width={300} height={100} alt="CAC Banner" className="w-100" style={{height:'auto', marginBottom:'12px'}} id="covidactioncollab-to-communityactioncollab" />
                             <p>The COVID-19 pandemic has enabled the Catalyst Group to build a strong and dynamic pan-India multidisciplinary network with a variety of expertise. This presents the potential to build the resilience of the vulnerable and their institutions in their everyday emergencies and to be ready for future humanitarian crises (climate & health). This has led to the #COVIDActionCollab transitioning to Community Action Collab, a &apos;spring to action&apos; ready humanitarian emergency platform.</p>
                             <p>#COVIDActionCollab</p>
-                            <ul>
+                            <ul style={{marginLeft:'-20px'}}>
                                 <li>Humanitarian and outbreak response over the years has taught us that:</li>
                                 <li>Responses need to be people-centric, localised and effective</li>
                                 <li>Resources &ndash; People, Money and Materials &ndash; should flow to places required</li>
