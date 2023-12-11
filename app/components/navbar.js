@@ -57,7 +57,7 @@ export function navbar() {
                         <li className="nav-item dropdown">
                             <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Core Impact Model</a>
                             <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a className="dropdown-item" href="/our-core-impact-model#3-fold-wealthy-resilient-and-responsible-farmers">3 Fold Impact Medel</a></li>
+                                <li><a className="dropdown-item" href="/our-core-impact-model#3-fold-wealthy-resilient-and-responsible-farmers">3 Fold Model</a></li>
                                 <li><a className="dropdown-item" href="/our-core-impact-model#why-small-producers">Why small producers</a></li>
                                 <li><a className="dropdown-item" href="/our-core-impact-model#problem-we-are-trying-to-solve">Problem we are trying to solve</a></li>
                                 <li><a className="dropdown-item" href="/our-core-impact-model#how-we-are-doing-it">How are we doing it</a></li>
@@ -78,9 +78,9 @@ export function navbar() {
                         <li className="nav-item dropdown">
                             <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Connect</a>
                             <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a className="dropdown-item" href="#">Action</a></li>
-                                <li><a className="dropdown-item" href="#">Another action</a></li>
-                                <li><a className="dropdown-item" href="#">Something else here</a></li>
+                                <li><a className="dropdown-item" href="/engage">Engage</a></li>
+                                <li><a className="dropdown-item" href="/careers">Careers</a></li>
+                                <li><a className="dropdown-item" href="/connect">Contact Us</a></li>
                             </ul>
                         </li>
                         <li className="nav-item">
