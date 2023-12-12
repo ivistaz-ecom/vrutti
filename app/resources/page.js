@@ -37,22 +37,22 @@ export default function connect () {
                     <h4 className="fcra" id="fcra">FCRA Receipts</h4>
                     <Row className="gx-0">
                         <Col md={3}>
-                            <div className="greybox">2022-2023<br /><br /><a href="#">Download Receipt for Q1</a></div>
+                            <div className="greybox">2022-2023<br /><br /><a href="/img/FCRA-RECEIPTS-Q1-FY-22-23.pdf" target="_blank">Download Receipt for Q1</a></div>
                         </Col>
                         <Col md={3}>
                             <div className="whitebox">2021-2022<br />
-                                <a href="#">Download Receipt for Q1</a><br />
-                                <a href="#">Download Receipt for Q2</a><br />
-                                <a href="#">Download Receipt for Q3</a><br />
-                                <a href="#">Download Receipt for Q4</a>
+                                <a href="/img/FCRA-RECEIPTS-Q1-FY-21-22.pdf" target="_blank">Download Receipt for Q1</a><br />
+                                <a href="/img/FCRA-Q2-RECEIPTS-FY-2021-22.pdf" target="_blank">Download Receipt for Q2</a><br />
+                                <a href="/img/FCRA-Q3-RECEIPTS-FY-2021-22.pdf" target="_blank">Download Receipt for Q3</a><br />
+                                <a href="/img/FCRA-Q4-RECEIPTS-FY-2021-22.pdf" target="_blank">Download Receipt for Q4</a>
                             </div>
                         </Col>
                         <Col md={3}>
                             <div className="greybox">2020-2021<br />
-                                <a href="#">Download Receipt for Q1</a><br />
-                                <a href="#">Download Receipt for Q2</a><br />
-                                <a href="#">Download Receipt for Q3</a><br />
-                                <a href="#">Download Receipt for Q4</a>
+                                <a href="/img/FCRA-RECEIPTS-Q1-FY-20-21.pdf" target="_blank">Download Receipt for Q1</a><br />
+                                <a href="/img/FCRA-RECEIPTS-Q2-FY-20-21.pdf" target="_blank">Download Receipt for Q2</a><br />
+                                <a href="/img/FCRA-RECEIPTS-Q3-FY-20-21.pdf" target="_blank">Download Receipt for Q3</a><br />
+                                <a href="/img/FCRA-RECEIPTS-Q4-FY-20-21.pdf" target="_blank">Download Receipt for Q4</a>
                             </div>
                         </Col>
                         <Col md={3}></Col>
@@ -60,26 +60,26 @@ export default function connect () {
                     <Row className="gx-0">
                         <Col md={3}>
                             <div className="whitebox">2019-2020<br />
-                                <a href="#">Download Receipt for Q1</a><br />
-                                <a href="#">Download Receipt for Q2</a><br />
-                                <a href="#">Download Receipt for Q3</a><br />
-                                <a href="#">Download Receipt for Q4</a>
+                                <a href="/img/FCRA-RECEIPTS-Q1-FY-19-20.pdf" target="_blank">Download Receipt for Q1</a><br />
+                                <a href="/img/Foreign-Receipts-Vrutti-15-seal.pdf" target="_blank">Download Receipt for Q2</a><br />
+                                <a href="/img/FCRA-RECEIPTS-Q3-FY-19-20.pdf" target="_blank">Download Receipt for Q3</a><br />
+                                <a href="/img/FCRA-RECEIPTS-Q4-FY-19-20.pdf" target="_blank">Download Receipt for Q4</a>
                             </div>
                         </Col>
                         <Col md={3}>
                             <div className="greybox">2018-2019<br />
-                                <a href="#">Download Receipt for Q1</a><br />
-                                <a href="#">Download Receipt for Q2</a><br />
-                                <a href="#">Download Receipt for Q3</a><br />
-                                <a href="#">Download Receipt for Q4</a>
+                                <a href="/img/FCRA-RECEIPTS-Q1-FY-18-19.pdf" target="_blank">Download Receipt for Q1</a><br />
+                                <a href="/img/FCRA-RECEIPTS-Q2-FY-18-19.pdf" target="_blank">Download Receipt for Q2</a><br />
+                                <a href="/img/FCRA-RECEIPTS-Q3-FY-18-19.pdf" target="_blank">Download Receipt for Q3</a><br />
+                                <a href="/img/FCRA-RECEIPTS-Q4-FY-18-19.pdf" target="_blank">Download Receipt for Q4</a>
                             </div>
                         </Col>
                         <Col md={3}>
                             <div className="whitebox">2017-2018<br />
-                                <a href="#">Download Receipt for Q1</a><br />
-                                <a href="#">Download Receipt for Q2</a><br />
-                                <a href="#">Download Receipt for Q3</a><br />
-                                <a href="#">Download Receipt for Q4</a>
+                                <a href="/img/FCRA-RECEIPTS-Q1-FY-17-18.pdf" target="_blank">Download Receipt for Q1</a><br />
+                                <a href="/img/FCRA-RECEIPTS-Q2-FY-2017-18.pdf" target="_blank">Download Receipt for Q2</a><br />
+                                <a href="/img/FCRA-RECEIPTS-Q3-FY-17-18pdf.pdf" target="_blank">Download Receipt for Q3</a><br />
+                                <a href="/img/FCRA-RECEIPTS-Q4-FY-17-18.pdf" target="_blank">Download Receipt for Q4</a>
                             </div>
                         </Col>
                         <Col md={3}></Col>
@@ -87,10 +87,7 @@ export default function connect () {
                     <Row className="gx-0">
                         <Col md={3}>
                             <div className="greybox">2016-2017<br />
-                                <a href="#">Download Receipt for Q1</a><br />
-                                <a href="#">Download Receipt for Q2</a><br />
-                                <a href="#">Download Receipt for Q3</a><br />
-                                <a href="#">Download Receipt for Q4</a>
+                                <a href="/img/FCRA-RECEIPTS-Q3-FY-16-17.pdf" target="_blank">Download Receipt</a>
                             </div>
                         </Col>
                         <Col md={3}>
@@ -102,14 +99,14 @@ export default function connect () {
                         <Col md={3}></Col>
                     </Row>
                     <h4 className="fcra mt-4" id="financials">Financials</h4>
-                    <p><a href="#">Annual Audit Report 2021 - 22</a></p>
-                    <p><a href="#">Annual Audit Report 2021 - 22</a></p>
-                    <p><a href="#">Annual Audit Report 2021 - 22</a></p>
-                    <p><a href="#">Annual Audit Report 2021 - 22</a></p>
-                    <p><a href="#">Annual Audit Report 2021 - 22</a></p>
-                    <p><a href="#">Annual Audit Report 2021 - 22</a></p>
-                    <p><a href="#">Annual Audit Report 2021 - 22</a></p>
-                    <p><a href="#">Annual Audit Report 2021 - 22</a></p>
+                    <p><a href="/img/Vrutti-Audited-Report-FY-2021-22.pdf" target="_blank">Annual Audit Report 2021 - 22</a></p>
+                    <p><a href="/img/Vrutti-Audited-Report-FY-2020-21.pdf" target="_blank">Annual Audit Report 2020 - 21</a></p>
+                    <p><a href="/img/Vrutti-Audited-Financials-2019-20.pdf" target="_blank">Annual Audit Report 2019 - 20</a></p>
+                    <p><a href="/img/Vrutti Audited Financials-2018-19.pdf" target="_blank">Annual Audit Report 2018 - 19</a></p>
+                    <p><a href="/img/Vrutti Audited Financials-2017-18.pdf" target="_blank">Annual Audit Report 2017 - 18</a></p>
+                    <p><a href="/img/Vrutti Audited Financials-2016-17.pdf" target="_blank">Annual Audit Report 2016 - 17</a></p>
+                    <p><a href="/img/Vrutti Audited Financials-2015-16.pdf" target="_blank">Annual Audit Report 2015 - 16</a></p>
+                    <p><a href="/img/Vrutti Audited Financials-2014-15.pdf" target="_blank">Annual Audit Report 2014 - 15</a></p>
                     <h4 className="fcra mt-4" id="statutory-details">Statutory Details</h4>
                     <Row style={{borderBottom:'1px solid #d2d2d2'}}>
                         <Col md={3}>Legal Name</Col>
@@ -214,6 +211,22 @@ export default function connect () {
                         </Col>
                     </Row>
                     <h4 className="fcra mt-4" id="evidences">Evidences</h4>
+                    <iframe loading="lazy" title="Ambuliaara Farmer Producer Company | Vrutti Livelihood Impact Partners" width="500" height="281" src="https://www.youtube.com/embed/GjrJmPaOs-E?start=47&amp;feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+                    <Row className="mt-4">
+                        <Col md={4}>
+                            <Link href="https://www.villagesquare.in/2020/05/25/farmer-producer-company-successfully-implements-farm-to-home-model-during-lockdown/" target="_blank">
+                                <Image src={'/img/Pic-03-2-300x161.jpg'} width={600} height={100} className="w-100" style={{height:'auto'}} alt="GreenLiving" />
+                            </Link>
+                            <p>Farmer producer company successfully implements farm-to-home model during lockdown</p>
+                        </Col>
+                        <Col md={4}>
+                            <Link href="https://www.villagesquare.in/2020/07/10/resourceful-producer-companies-address-farmers-lockdown-challenges/" target="_blank">
+                                <Image src={'/img/Pudukottai-01.jpg'} width={600} height={100} className="w-100" style={{height:'auto'}} alt="GreenLiving" />
+                            </Link>
+                            <p>Resourceful producer companies address farmers’ lockdown challenges</p>
+                        </Col>
+                        <Col md={4}></Col>
+                    </Row>
                 </Col>
             </Row>
         </Container>
