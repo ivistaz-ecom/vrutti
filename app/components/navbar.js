@@ -70,9 +70,12 @@ export function navbar() {
                         <li className="nav-item dropdown">
                             <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Resources</a>
                             <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a className="dropdown-item" href="#">Action</a></li>
-                                <li><a className="dropdown-item" href="#">Another action</a></li>
-                                <li><a className="dropdown-item" href="#">Something else here</a></li>
+                                <li><a className="dropdown-item" href="/resources#fcra">FCRA Receipts</a></li>
+                                <li><a className="dropdown-item" href="resources#financials">Financials</a></li>
+                                <li><a className="dropdown-item" href="resources#statutory-details">Statutory Details</a></li>
+                                <li><a className="dropdown-item" href="resources#publications">Publications</a></li>
+                                <li><a className="dropdown-item" href="resources#annual-reports">Annual Reports</a></li>
+                                <li><a className="dropdown-item" href="resources#evidences">Evidences</a></li>
                             </ul>
                         </li>
                         <li className="nav-item dropdown">

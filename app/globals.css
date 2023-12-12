@@ -206,6 +206,7 @@ body {
   animation: counter4 5s linear forwards;
   counter-reset: count 0;
 }
+
 @keyframes counter4 {
   from {
     --num4: 0;
@@ -218,6 +219,27 @@ body {
 .txtbox {
   color:white;
   padding:80px 40px 0px 100px;
+}
+.fcra {
+  color:#fff;
+  background-color:#025745;
+  font-weight: 400;
+  padding: 6px 12px;
+}
+.greybox {
+  background-color: #ECECEC;
+  vertical-align: middle;
+  text-align: center;
+  padding: 20px 0px;
+  width: 100%;
+  height: 200px;
+}
+.whitebox {
+  vertical-align: middle;
+  text-align: center;
+  padding: 20px 0px;
+  width: 100%;
+  height: 200px;
 }
 @media (max-width:786px) {
   .imgsize, .aboutmenu {
