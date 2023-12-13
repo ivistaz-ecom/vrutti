@@ -16,7 +16,7 @@ export function navbar() {
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
                         <li className="nav-item">
-                            <Link className="nav-link active" aria-current="page" href={'/vrutti'}>Home</Link>
+                            <Link className="nav-link active" aria-current="page" href={'/'}>Home</Link>
                         </li>
                         <li className="nav-item">
                             <Link className="nav-link" href={'https://pages.razorpay.com/vrutticovid19'}>Donate Now</Link>
@@ -43,17 +43,6 @@ export function navbar() {
                                 <li><a className="dropdown-item" href="what-we-do#development-goals">Sustainable Development Goals</a></li>
                             </ul>
                         </li>
-                        <li className="nav-item">
-                            <Link className="nav-link" href={'/covidactioncollab'}>#CovidActionCollab</Link>
-                        </li>
-                        <li className="nav-item dropdown">
-                            <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">PIE</a>
-                            <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a className="dropdown-item" href="/platform-for-inclusive-entrepreneurship-pie#introduction">Introduction</a></li>
-                                <li><a className="dropdown-item" href="/platform-for-inclusive-entrepreneurship-pie#the-challenge">The Challenge</a></li>
-                                <li><a className="dropdown-item" href="/platform-for-inclusive-entrepreneurship-pie#the-solution-we-are-working-on">The solution we are working on</a></li>
-                            </ul>
-                        </li>
                         <li className="nav-item dropdown">
                             <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Core Impact Model</a>
                             <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -64,6 +53,20 @@ export function navbar() {
                                 <li><a className="dropdown-item" href="/our-core-impact-model#where-are-we-on-this-journey">Where are we</a></li>
                             </ul>
                         </li>
+                        <li className="nav-item">
+                            <Link className="nav-link" href={'/communityactioncollab'}>CAC</Link>
+                        </li>
+                        {/* <li className="nav-item">
+                            <Link className="nav-link" href={'/covidactioncollab'}>#CovidActionCollab</Link>
+                        </li>
+                        <li className="nav-item dropdown">
+                            <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">PIE</a>
+                            <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a className="dropdown-item" href="/platform-for-inclusive-entrepreneurship-pie#introduction">Introduction</a></li>
+                                <li><a className="dropdown-item" href="/platform-for-inclusive-entrepreneurship-pie#the-challenge">The Challenge</a></li>
+                                <li><a className="dropdown-item" href="/platform-for-inclusive-entrepreneurship-pie#the-solution-we-are-working-on">The solution we are working on</a></li>
+                            </ul>
+                        </li> */}
                         <li className="nav-item">
                             <Link className="nav-link" href={'/research'}>Research</Link>
                         </li>
