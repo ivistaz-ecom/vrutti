@@ -7,9 +7,9 @@ export default function homebanner () {
             
             <Carousel.Item>
                 <Container fluid className="homebanner">
-                    <Row>
-                     <Col><Image src={'/img/homebanner-1.jpeg'} width={500} height={700} alt="Home Banner"/></Col>   
-                     <Col>
+                    <Row className="g-0 w-100">
+                     <Col><Image src={'/img/homebanner-1.jpeg'} width={500} height={700} className="img-fluid" alt="Home Banner"/></Col>   
+                     <Col className="">
                      <div className="centerbox w-100">
                         <p style={{fontWeight:'bold'}}>COVID-19 RESPONSE UPDATES</p>
                         <div className="numcounterarea">
