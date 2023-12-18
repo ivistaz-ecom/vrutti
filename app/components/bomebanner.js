@@ -1,4 +1,4 @@
-import { Button, Container, Carousel } from "react-bootstrap";
+import { Button, Container, Carousel , Col, Row} from "react-bootstrap";
 import Image from "next/image";
 
 export default function homebanner () {
