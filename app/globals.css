@@ -71,6 +71,7 @@ body {
   background-color: #025745;
   color: white;
   text-align: center;
+  height: 100vh;
 }
 .centerbox p {
   color: #f05922;

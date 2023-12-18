@@ -8,9 +8,9 @@ export default function homebanner () {
             <Carousel.Item>
                 <Container fluid className="homebanner">
                     <Row className="g-0 w-100">
-                        <Col><Image src={'/img/homebanner-1.jpeg'} width={500} height={700} className="img-fluid" alt="Home Banner"/></Col>   
+                        <Col><Image src={'/img/homebanner-1.jpeg'} width={500} height={700} className="img-fluid left-circle" alt="Home Banner"/></Col>   
                         <Col className="">
-                            <div className="left-circle"></div>
+                            
                             <div className="centerbox w-100">
                                 <p style={{fontWeight:'bold'}}>COVID-19 RESPONSE UPDATES</p>
                                 <div className="numcounterarea">
@@ -20,9 +20,9 @@ export default function homebanner () {
                                 <p style={{color:'white'}}>provided health advisory, awareness, food supplies, medical kits and financial services</p>
                                 <Button href={'https://pages.razorpay.com/vrutticovid19'} style={{backgroundColor:'#f05922', border:'none'}}>Donate Now</Button>
                             </div>
-                            <div className="right-circle"></div>
+                            
                         </Col>
-                        <Col><Image src={'/img/homebanner-2.jpeg'} width={500} height={700} alt="Home Banner"></Image></Col>
+                        <Col><Image src={'/img/homebanner-2.jpeg'} width={500} height={700} alt="Home Banner" className="right-circle"></Image></Col>
                     </Row>
                 </Container>
             </Carousel.Item>
