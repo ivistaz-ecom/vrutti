@@ -5,10 +5,17 @@ import Navbar from "../components/navbar";
 import Footer from '../components/footer';
 import * as Icon from 'react-bootstrap-icons';
 import Link from "next/link";
+import Metatags from "../components/metatags";
 
 export default function whatwedo () {
+
+    const title = "Vrutti | Livelihood Impact Partners";
+    const description = "Livelihood Impact Partners";
+    const url = "Test URL";
+
     return (
         <>
+        <Metatags title={title} desc={description} url={url} />
         <Navbar />
         <Container style={{marginTop:'40px', paddingTop:'100px', paddingBottom:'60px'}}>
             <h1 style={{color:'#025745', fontWeight:'700', marginBottom:'30px'}}>What We Do</h1>

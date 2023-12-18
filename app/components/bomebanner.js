@@ -4,10 +4,13 @@ import Image from "next/image";
 export default function homebanner () {
     return (
         <Carousel>
+            
             <Carousel.Item>
                 <Container fluid className="homebanner">
-                    <Image src={'/img/homebanner-1.jpeg'} width={500} height={700} alt="Home Banner"></Image>
-                    <div className="centerbox w-100">
+                    <Row>
+                     <Col><Image src={'/img/homebanner-1.jpeg'} width={500} height={700} alt="Home Banner"/></Col>   
+                     <Col>
+                     <div className="centerbox w-100">
                         <p style={{fontWeight:'bold'}}>COVID-19 RESPONSE UPDATES</p>
                         <div className="numcounterarea">
                             <div id="numcounter"></div>
@@ -16,9 +19,16 @@ export default function homebanner () {
                         <p style={{color:'white'}}>provided health advisory, awareness, food supplies, medical kits and financial services</p>
                         <Button href={'https://pages.razorpay.com/vrutticovid19'} style={{backgroundColor:'#f05922', border:'none'}}>Donate Now</Button>
                     </div>
-                    <Image src={'/img/homebanner-2.jpeg'} width={500} height={700} alt="Home Banner"></Image>
+                     </Col>
+                     <Col><Image src={'/img/homebanner-2.jpeg'} width={500} height={700} alt="Home Banner"></Image></Col>
+                    </Row>
+
+                    
+                   
+                    
                 </Container>
             </Carousel.Item>
+
             <Carousel.Item>
                 <Container fluid className="homebanner">
                     <Image src={'/img/homebanner-12.jpeg'} width={500} height={700} alt="Home Banner"></Image>

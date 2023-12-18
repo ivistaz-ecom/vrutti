@@ -5,10 +5,23 @@ import Footer from '../components/footer';
 import Link from "next/link";
 import * as Icon from 'react-bootstrap-icons';
 import Image from "next/image";
+import Metatags from "../components/metatags";
+import Head from "next/head";
+
 
 export default function communityactioncollab () {
+
+    const title = "Vrutti | Livelihood Impact Partners";
+    const desc = "Livelihood Impact Partners";
+    const url = "Test URL";
+    const banner = "Banner";
+
     return (
         <>
+        <Head>
+            <title>Vrutti | Livelihood Impact Partners</title>
+        </Head>
+        <Metatags desc={desc} url={url} />
         <Navbar />
         <Container style={{marginTop:'40px', paddingTop:'100px', paddingBottom:'60px'}}>
             <h1 style={{color:'#025745', fontWeight:'700', marginBottom:'30px'}}>CommunityActionCollab</h1>

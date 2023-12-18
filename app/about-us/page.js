@@ -6,10 +6,22 @@ import Footer from '../components/footer';
 import * as Icon from 'react-bootstrap-icons';
 import Aboutbanner from "../components/aboutbanner";
 import Link from "next/link";
+import Metatags from "../components/metatags";
+import Head from "next/head";
 
 export default function aboutus () {
+
+    const title = "Vrutti | Livelihood Impact Partners";
+    const desc = "Livelihood Impact Partners";
+    const url = "Test URL";
+    const banner = "Banner";
+
     return (
         <>
+        <Head>
+            <title>Vrutti | Livelihood Impact Partners</title>
+        </Head>
+        <Metatags desc={desc} url={url} />
         <Navbar />
         <Aboutbanner />
         <Container style={{paddingTop:'100px', paddingBottom:'60px'}}>
