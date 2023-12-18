@@ -6,7 +6,7 @@ export default function homebanner () {
         <Carousel>
             
             <Carousel.Item>
-                <Container fluid className="homebanner">
+                <Container fluid className="homebanner" style={{'backgroundColor':'#025745'}}>
                     <Row className="g-0 w-100">
                         <Col><Image src={'/img/homebanner-1.jpeg'} width={500} height={700} className="img-fluid left-circle" alt="Home Banner"/></Col>   
                         <Col className="">
