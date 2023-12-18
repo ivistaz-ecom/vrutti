@@ -14,8 +14,8 @@ export default function mainfooter () {
                             <li><Link href={'/what-we-do'}>What we do</Link></li>
                             <li><Link href={'/platform-for-inclusive-entrepreneurship-pie'}>Platform for Inclusive Entrepreneurship (PIE)</Link></li>
                             <li><Link href={'/our-core-impact-model'}>Our Core Impact Model</Link></li>
-                            <li>Engage</li>
-                            <li>Connect</li>
+                            <li><Link href={'/engage'}>Engage</Link></li>
+                            <li><Link href={'/connect'}>Connect</Link></li>
                         </ul>
                     </Col>
                     <Col md={4}>

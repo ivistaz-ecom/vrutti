@@ -1,23 +1,18 @@
 import { Container, Row, Col } from "react-bootstrap"
 
 export default function Page() {
-    async function onSubmit(event) {
-      event.preventDefault()
-   
-      const formData = new FormData(event.target)
-      const response = await fetch('/api/submit', {
-        method: 'POST',
-        body: formData,
-      })
-   
-      // Handle response if necessary
-      const data = await response.json()
-      // ...
-    }
+
+  const handleSubmit = async (event) => {
+    event.preventDefault();
+  
+    const formData = new FormData(event.target);
+  
+    console.log(formData);
+  };
    
     return (
       <Container>
-        <form onSubmit={onSubmit}>
+        <form onSubmit={handleSubmit}>
             <input type="text" name="name" className="form-control" placeholder="Name" />
             <br />
             <input type="email" name="email" className="form-control" placeholder="Email" />
