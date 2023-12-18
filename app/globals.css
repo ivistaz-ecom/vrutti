@@ -114,7 +114,12 @@ body {
 .aboutmenu ul li a:hover {
   color: #ff0000;
 }
-
+.left-circle{
+  border-radius: 0 400px 400px 0;
+}
+.right-circle{
+ border-radius: 400px 0 0 400px; 
+}
 /* Number counter on home page banner */
 @property --num {
   syntax: "<integer>";

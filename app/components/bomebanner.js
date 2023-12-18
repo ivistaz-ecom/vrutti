@@ -8,7 +8,7 @@ export default function homebanner () {
             <Carousel.Item>
                 <Container fluid className="homebanner" style={{'backgroundColor':'#025745'}}>
                     <Row className="g-0 w-100">
-                        <Col><Image src={'/img/homebanner-1.jpeg'} width={500} height={700} className="img-fluid left-circle" alt="Home Banner"/></Col>   
+                        <Col><Image src={'/img/homebanner-1.jpeg'} width={500} height={700} className="left-circle" alt="Home Banner"/></Col>   
                         <Col className="">
                             
                             <div className="centerbox w-100">
@@ -28,9 +28,12 @@ export default function homebanner () {
             </Carousel.Item>
 
             <Carousel.Item>
-                <Container fluid className="homebanner">
-                    <Image src={'/img/homebanner-12.jpeg'} width={500} height={700} alt="Home Banner"></Image>
-                    <div className="centerbox w-100">
+                <Container fluid className="homebanner" style={{'backgroundColor':'#025745'}}>
+                    <Row className="g-0 w-100">
+                        <Col><Image src={'/img/homebanner-12.jpeg'} width={500} height={700} className="left-circle" alt="Home Banner"/></Col>   
+                        <Col className="">
+                            
+                        <div className="centerbox w-100">
                         <p style={{fontWeight:'bold'}}>COVID-19 RESPONSE UPDATES</p>
                         <div className="numcounterarea">
                             <div id="numcounter2"></div>
@@ -39,9 +42,14 @@ export default function homebanner () {
                         <p style={{color:'white'}}>Under the 3 fold model, 26000 farmers are now Wealthy, Resilient &amp; Responsible.</p>
                         <Button href={'/our-core-impact-model/'} style={{backgroundColor:'#f05922', border:'none'}}>Donate Now</Button>
                     </div>
-                    <Image src={'/img/homebanner-22.jpeg'} width={500} height={700} alt="Home Banner"></Image>
+                            
+                        </Col>
+                        <Col><Image src={'/img/homebanner-22.jpeg'} width={500} height={700} alt="Home Banner" className="right-circle"></Image></Col>
+                    </Row>
                 </Container>
             </Carousel.Item>
+
+           
 
             <Carousel.Item>
                 <Container fluid className="homebanner">
