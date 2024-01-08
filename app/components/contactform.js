@@ -4,9 +4,7 @@ export default function Page() {
 
   const handleSubmit = async (event) => {
     event.preventDefault();
-  
     const formData = new FormData(event.target);
-  
     console.log(formData);
   };
    
