@@ -272,4 +272,10 @@ body {
   .txtbox {
     padding: 10px 10px;
   }
+  .greyiconbox {
+    display: none;
+  }
+  .respwhitebgbox {
+    margin: 12px 0;
+  }
 }
