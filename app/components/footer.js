@@ -1,7 +1,9 @@
 import { Container, Row, Col } from "react-bootstrap";
+import { useState } from "react";
 import Link from "next/link";
 
 export default function mainfooter () {
+    const [date, setDate] = useState(new Date());
     return (
         <Container fluid style={{backgroundColor:'#000', paddingTop:'30px', paddingBottom:'20px', color:'white'}}>
             <Container>
@@ -31,7 +33,7 @@ export default function mainfooter () {
                     <Col md={2}>
                         <p>Legal</p>
                         <ul style={{listStyleType:'none', marginLeft:'-30px', fontSize:'small',color:'#f05922'}}>
-                            <li>&copy; 2018-2023 | Vrutti</li>
+                            <li>&copy; 2018-{date.getFullYear()} | Vrutti</li>
                             <li>Foreign Contribution Receipts (FCRA)</li>
                             <li>Privacy Policy</li>
                         </ul>
