@@ -52,7 +52,7 @@ export default function aboutus () {
                             <p>Vrutti was ideated in 2002 by two graduates from the Institute of Rural Management Anand We are committed to find solutions to end poverty, marginalisation and create wealth and build resilience for small producers. As social entrepreneurs, we pursue problem solving with entrepreneurial zeal, business acumen, courage to innovate, and consistently challenge traditional practices. To us, scale is about reach and impact at the community &ndash; the depth and breadth of our contributions to change (at individual producer, ecosystem and national levels) and sustainability of benefits. Our solutions are modelled to take us to the scale. We are not satisfied with localised and limited interventions. We therefore &apos;model&apos; our approaches, &apos;cost&apos; them, and &apos;integrate&apos; them to be adopted by communities or market or public policy. We are passionate about unbiased measurement, self-critique and learning. We work through result-based planning tools, performance measurement metrics, impact and value for money assessments and use technology as augmenter.</p>
                         </Col>
                         <Col md={6}>
-                            <Image src={'/../img/Gulbarga.jpeg'} width={400} height={300} alt="Gulbarga" className="w-100" />
+                            <Image src={'/img/Gulbarga.jpeg'} width={400} height={300} alt="Gulbarga" className="w-100" />
                         </Col>
                     </Row>
                     <Row>
