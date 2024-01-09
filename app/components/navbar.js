@@ -26,8 +26,8 @@ export function navbar() {
                                 Who we are
                             </a>
                             <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a className="dropdown-item" href="/about-us">About Us</a></li>
-                                <li><a className="dropdown-item" href="#/about-us/#why">Why are we here</a></li>
+                                <li><a className="dropdown-item" href="about-us">About Us</a></li>
+                                <li><a className="dropdown-item" href="about-us#why">Why are we here</a></li>
                                 <li><a className="dropdown-item" href="about-us#believe">What we believe in</a></li>
                                 <li><a className="dropdown-item" href="about-us#journey">About our journey</a></li>
                                 <li><a className="dropdown-item" href="about-us#genesis">The Genesis</a></li>
