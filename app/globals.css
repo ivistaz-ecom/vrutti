@@ -278,4 +278,7 @@ body {
   .respwhitebgbox {
     margin: 12px 0;
   }
+  .left-circle, .right-circle {
+    display: none;
+  }
 }
